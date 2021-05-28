@@ -1,0 +1,73 @@
+/*BOAS E MÁS PRÁTICAS DO FOR*/
+
+//1. 
+var c = 1;
+for(c=1; c<=5; c++){
+    console.log(c) 
+}
+
+/*Más Práticas: 
+* Variável FOR inicializada em dois lugares, tem mais trabalho, caso quiser, mudar a inicialização da 
+* variavel, terá que mudar em dois lugares do código*/
+
+/*---------------------------------------------- */
+
+//2.
+for(var c =1; c <=5;c++){
+    console.log(c)
+}
+
+/*Boas Práticas:
+* A simplificação no FOR, fica mais facíl de analisar, arrumar, não precisa ficar mundado a variável em dois lugares.
+* Caso fizer FOR mais longos, é sempre uma boa prática inicializar a variavel dentro do FOR. */
+
+/*-----------------------------------------------*/
+
+/*BOAS E MÁS PRÁTICAS DO IF */
+
+//1. 
+if(someVariableExists)
+    x = false;              //exemplo do código, by site: code.tutaplus.com
+    anotherFuncionCall(); 
+
+/*Más Práticas: 
+* Declarações IF escritas sem as chaves ({}). É um código válido, mas não é recomendado!, pois pode gerar ambiguidade. 
+* E considerando o código acima, podemos achar que a linha 'anotherFuncionCall();' equivale ao trecho do IF. */
+
+/*------------------------------------------------*/
+
+//2. 
+if(someVariableExists){
+    x = false;             //exemplo do código, by site: code.tutaplus.com
+}
+anotherFuncionCall();
+
+
+/*Boas Práticas:
+* O código acima fica mais simples de entender, fica mais organizado, não tem dupla interpretação, caso alguém for 
+* avaliar o código, não ficará confuso. 
+
+* A única vez que as chaves podem ser omitidas é nas instruções de linha única e, ainda assim, isso também é bastante 
+* debatido; 
+*/
+
+/*--------------------------------------------------*/
+
+/* BOAS E MÁS PRÁTICAS DOS COMENTÁRIOS NO CÓDIGO */
+
+//1.
+var valor = 2;
+console.log(Math.pow(valor,3));
+
+/*Más Práticas:
+* Pode até paracer desnecessário comentar os códigos, mas pode ajudar muito futuramente. 
+* Quando é feito um código, temos a lógica, resolvemos o problema.
+* Mas, depois de alguns dias quiser rever aquele mesmo código? A sua linha de pensamento irá mudar e não irá ser capaz de lembrar, o que aquela determinada função faz.  */
+
+//2. 
+var valor = 2;
+//função retorna um número especificado elevado á potência;
+console.log(Math.pow(valor,3));
+
+/*Boas Práticas:
+* Sempre comente seções importantes do seu código. Irá valer a apena futuramente.*/
