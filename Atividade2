@@ -64,6 +64,7 @@ console.log(Math.pow(valor,3));
 * Quando é feito um código, temos a lógica, resolvemos o problema.
 * Mas, depois de alguns dias quiser rever aquele mesmo código? A sua linha de pensamento irá mudar e não irá ser capaz de lembrar, o que aquela determinada função faz.  */
 
+/*-------------------------------------------------*/
 //2. 
 var valor = 2;
 //função retorna um número especificado elevado á potência;
