@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Exercício 4 - JavaScript</title>	
+
+		<!--CSS--> 
+		<style>
+
+			@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+			
+			main h2  {
+				font-family: 'Lato', sans-serif;
+				padding: 5px 20px 5px 20px;
+			}
+
+			main p
+			{
+				text-align: justify;
+				padding: 5px 20px 5px 20px;
+				font-family: 'Lato', sans-serif;
+			}
+
+			h3
+			{
+				font-family: 'Lato', sans-serif;
+				padding-left: 5%;
+				color: gray;
+			}
+
+
+			ul li{
+				font-family: 'Lato', sans-serif;
+				text-align: justify;
+				padding: 5px;
+			}
+
+		</style>
+	
+	</head>
+
+	<body>	
+
+		<main>
+
+			<h2>JavaScript - Uma breve historia da linguagem </h2>
+
+			<p>
+				Em 1995, a linguagem de programação foi criada por Brendan Eich, a pedido da empresa Netscape, ele era um desenvolvedor e a tarefa dele era criar uma linguagem que desse mais funcionalidade ao simples HTML que existia na época.<br><br>
+				O Brandan Eich tinha um projeto e batizou a sua linguagem, inicialmente de Mocha (um tipo de café). 
+				Depois a linguagem foi batizada com outro nome: LiveScript.
+				<br><br>
+				E na mesma época, estava surgindo uma linguagem da Sun MicroSystems chamada Java. A linguagem ganhou muito sucesso na mídia. Mas, como a linguagem Java, estava fazendo sucesso na época, então a empresa, junto com uma jogada de marketing, colocou o nome de JavaScript. 
+				<br><br>
+				A mudança do nome de LiveScript para JavaScript foi inevitável. 
+			</p>
+
+			<p>
+				Em 1997, a Netscape procurou uma empresa de padronização, <i>a ECMA (Associação Europeia de Fabricantes de Computadores)</i> uma empresa Europeia, onde a Netscape cedeu o código para a ECMA para uma padronizaçã, e surgiu a linguagem <b>ECMAScript</b>.
+			</p>
+
+			<p>	
+				<b>ECMAScript</b> é uma linguagen padronizada do JavaScript e ele tem várias versões. 
+				<ul>
+					<li>
+						Em <b>1997</b>,surgiu a versão ECMAScript 1.0 que era na verdade a versão 1.1 JavaScript lançada para o Netscape;
+					</li>
+					<li>
+						Em <b>1998</b>, surgiu a versão ECMAScript 2.0, foi mais editorial para ficar de acordo com a ISO/IEC-16262. Não houve adições, remoções, mudanças ou omissões nela;
+					</li>
+					<li>
+						Em <b>1999</b>, surgiu a versão ECMAScript 3.0, a primeira atualização da linguagem. Ela proveu atualização na manipulação de strings, definição de erros, suporte para expressões regulares, novas declarações de controle, o bloco try/cath para tratamentos de exceções, e outras mudanças menores; 
+						<br>
+						A versão 4.0, foi planejada uma completa reestruturação da linguagem. Foram tão grandes as mudanças que a especificação resultante era quase uma nova linguagem. Ela incluía tipagem forte de variáveis, novas declarações e estruturas de dados, classes e herança clássica, e novas maneiras de interagir com dados. E foi abandonada antes de ser publicada oficialmente.
+					</li>
+					<li>
+						Em <b>2009</b>, pulando a versão 4, surgiu a versão ECMAScript 5.0, que ficou conhecida como ES5. Essa versão é a mais popular, compatível com quase todos os navegadores atuais. Ela se tornou compatível com o JSON e também trouxe vários métodos para tratar arrays;
+					</li>
+					<li>
+						Em <b>2015</b>, surgiu a versão ES6, que trouxe os declaradores let e const e também as String em Templates; 
+					</li>
+					<li>
+						Em <b>2016</b>, versão 7.0, começou a ser chamado pelo ano ES2016, que trouxe algumas funcionalidades como operador de exponenciação; 
+					</li>
+					<li>
+						Em <b>2017</b>, surgiu o ES2017 que trouxe compatibilidade com funções assíncronas; 
+					</li>
+					<li>
+						Em <b>2018</b>, a versão ES2018, é a mais recente, que trouxe novidades em expressões regulraes as Regx e a possibilidade de promises.  
+					</li>
+				</ul>
+			</p>
+
+		</main>
+
+	</body>
+
+</html>
